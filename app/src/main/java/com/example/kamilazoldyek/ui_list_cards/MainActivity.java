@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         mList.add(new Item("Jonathan", R.drawable.bg_7, R.drawable.profile_m10, 9 ));
         mList.add(new Item("Henry", R.drawable.bg_8, R.drawable.profile_m6, 47 ));
         mList.add(new Item("April", R.drawable.bg_9, R.drawable.profile_f5, 89 ));
-        mList.add(new Item("Luanna", R.drawable.bg_4, R.drawable.profile_f7, 12 ));
+        mList.add(new Item("Luanna", R.drawable.bg_5, R.drawable.profile_f7, 12 ));
         mList.add(new Item("Julien", R.drawable.bg_3, R.drawable.profile_m11, 78 ));
         mList.add(new Item("Mark", R.drawable.bg_5, R.drawable.profile_m12, 63 ));
         mList.add(new Item("Karen", R.drawable.bg_6, R.drawable.profile_f_8, 88 ));
