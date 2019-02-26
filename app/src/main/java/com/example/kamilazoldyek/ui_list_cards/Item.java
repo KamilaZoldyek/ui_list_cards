@@ -11,16 +11,9 @@ public class Item {
 
     }
 
-    public String getProfileName() {
-        return profileName;
-    }
-
-    public void setProfileName(String profileName) {
-        this.profileName = profileName;
-    }
 
     public Item(String profileName, int background, int profilePhoto, int nbFollowers) {
-        this.profileName = getProfileName();
+        this.profileName = profileName;
         this.background = background;
         this.profilePhoto = profilePhoto;
         this.nbFollowers = nbFollowers;
@@ -50,4 +43,13 @@ public class Item {
     public void setNbFollowers(int nbFollowers) {
         this.nbFollowers = nbFollowers;
     }
+
+    public String getProfileName() {
+        return profileName;
+    }
+
+    public void setProfileName(String profileName) {
+        this.profileName = profileName;
+    }
+
 }

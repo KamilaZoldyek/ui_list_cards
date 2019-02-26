@@ -7,6 +7,7 @@
     android:layout_height="250dp">
 
     <ImageView
+        android:scaleType="centerCrop"
         android:id="@+id/card_background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="#D6D6D6" />
+        app:srcCompat="@color/colorAccent2" />
 
     <Button
         android:id="@+id/btn_follow"
@@ -35,18 +36,23 @@
         app:layout_constraintVertical_bias="0.956" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/gradient"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/black_gradient" />
 
     <ImageView
         android:id="@+id/profile_img"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/img"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
@@ -56,8 +62,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@mipmap/ic_launcher_round" />
+        app:layout_constraintVertical_bias="1.0"/>
 
     <TextView
         android:id="@+id/card_title"
@@ -88,7 +93,7 @@
         android:text="TextView"
         android:textColor="#fff"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="@+id/gradient"
         app:layout_constraintHorizontal_bias="0.003"
         app:layout_constraintStart_toEndOf="@+id/profile_img"
         app:layout_constraintTop_toBottomOf="@+id/card_title"
